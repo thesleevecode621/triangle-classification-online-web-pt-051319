@@ -12,6 +12,7 @@ class Triangle
      raise TriangleError
    when  (@a == @b) && (@b == @c)
         :equilateral
+  when 
   class TriangleError < StandardError
     # triangle error code
   end
