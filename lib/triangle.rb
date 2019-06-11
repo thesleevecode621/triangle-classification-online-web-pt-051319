@@ -6,8 +6,9 @@ class Triangle
    @c = c
  end 
  def kind()
-   case a <= 0 ||  a <= 0 || a <= 0 
-   
+   case (a <= 0 ||  a <= 0 || a <= 0)
+   raise TriangleError
+   when ()
   class TriangleError < StandardError
     # triangle error code
   end
