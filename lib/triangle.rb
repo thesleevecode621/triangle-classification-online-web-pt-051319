@@ -10,7 +10,8 @@ class Triangle
    raise TriangleError
    when (@a+@b <= @c) || (@a+@c <= @b) || (@b+@c <= @a)
      raise TriangleError
-     
+   when  (@a == @b) && (@b == @c)
+        :equilateral
   class TriangleError < StandardError
     # triangle error code
   end
