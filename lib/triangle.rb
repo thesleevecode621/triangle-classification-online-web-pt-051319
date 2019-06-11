@@ -1,5 +1,5 @@
 class Triangle
-  # triangle code
+ attr_accessor :kind
  
   class TriangleError < StandardError
     # triangle error code
