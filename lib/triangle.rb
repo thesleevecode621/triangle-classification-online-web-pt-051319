@@ -5,7 +5,8 @@ class Triangle
    @b = b
    @c = c
  end 
- def kind 
+ def kind()
+   case a <= 0 || 
   class TriangleError < StandardError
     # triangle error code
   end
