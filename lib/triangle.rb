@@ -7,6 +7,7 @@ class Triangle
  end 
  def kind()
    case a <= 0 ||  a <= 0 || a <= 0 
+   
   class TriangleError < StandardError
     # triangle error code
   end
