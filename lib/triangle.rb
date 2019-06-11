@@ -13,7 +13,11 @@ class Triangle
    when  (@a == @b) && (@b == @c)
         :equilateral
   when (@a == @b) || (@b == @c) || (@a == @c)
-    
+    :isosceles
+      when (@a != @b) && (@b != @c) && (@a != @c)
+        :scalene
+      end 
+    end 
   class TriangleError < StandardError
     # triangle error code
   end
